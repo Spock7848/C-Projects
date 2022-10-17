@@ -63,9 +63,9 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 if(n >= 100 && n <= 1000)
 {
-    int lastDigit = n % 10
+    int lastDigit = n % 10;
     Console.WriteLine("The last digit of " + n + " is: " + lastDigit);
-    Console.WriteLine($"The last digit of {n} is: {lastDigit}")
+    Console.WriteLine($"The last digit of {n} is: {lastDigit}");
 }
 else
 {
