@@ -1,6 +1,7 @@
 ﻿// Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
 
-/*Console.WriteLine("Input two numbers: ");
+/*
+Console.WriteLine("Input two numbers: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 int num2 = Convert.ToInt32(Console.ReadLine());
 
@@ -15,12 +16,14 @@ else if (num2 < num1)
 else
 {
     Console.WriteLine("Sorry, its equal ;(");
-}*/
+}
+*/
 
 
 // Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
-/*Console.WriteLine("Input three numbers: ");
+/*
+Console.WriteLine("Input three numbers: ");
 int num1 = Convert.ToInt32(Console.ReadLine());
 int num2 = Convert.ToInt32(Console.ReadLine());
 int num3 = Convert.ToInt32(Console.ReadLine());
@@ -44,7 +47,9 @@ Console.WriteLine("Max number is: " + max);
 // Долго мучался с попыткой вывода сообщения в случае повторяющихся максимальных чисел, но так ничего и не придумал.
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
-/*Console.WriteLine("Input a number: ");
+
+/*
+Console.WriteLine("Input a number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 if (num % 2 == 0)
@@ -59,7 +64,8 @@ else
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
-/*Console.WriteLine("Input a number: ");
+/*
+Console.WriteLine("Input a number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int current = 1;
 
