@@ -46,3 +46,34 @@ double segmentLength =  Math.Round (Decision(x1, x2, y1, y2, z1, z2), 2 );
 
 Console.WriteLine($"Segment length is {segmentLength}");
 */
+
+//Задача 23: Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+/*
+Console.Write("Input a number: ");
+int cube = Convert.ToInt32(Console.ReadLine());
+
+void Cube(int[] cube)
+{
+  int counter = 0;
+  int length = cube.Length;
+  while (counter < length)
+  {
+    cube[counter] = Convert.ToInt32(Math.Pow(counter, 3));
+    counter++;
+  }
+}
+
+void PrintTable(int[] coll){
+  int count = coll.Length;
+  int index = 1;
+  while(index < count){
+    Console.Write(coll[index]+ " ");
+    index++;
+  }
+} 
+
+int[] table = new int[cube+1];
+Cube(table);
+PrintTable(table);
+*/
