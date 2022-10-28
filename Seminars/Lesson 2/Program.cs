@@ -1,5 +1,6 @@
 ﻿// Задача 1. Напишите программу, которая на вход принимает двузначное число и показывает наибольшую цифру этого числа.
 
+/*
 int FindBiggerDigit(int num)
 
 {
@@ -26,3 +27,4 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 int biggerDigit = FindBiggerDigit(number);
 Console.WriteLine($"Bigger digit on {number} is {biggerDigit}");
+*/
