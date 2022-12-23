@@ -75,4 +75,4 @@ while(current <= num)
     Console.WriteLine(current);
     current++;
 }
-*/вв
+*/
