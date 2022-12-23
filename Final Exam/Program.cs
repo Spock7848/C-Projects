@@ -1,4 +1,4 @@
-﻿string[] firstArray = new string[5] {"Arsenal", "Man City", "Liverpool", "Newcastle United", "Leicester City"};
+﻿string[] firstArray = new string[5] {"Ars", "MC", "Reds", "NU", "Spurs"};
 string[] secondArray = new string[firstArray.Length];
 
 void Top3PL2023(string[] firstArray, string[] secondArray)
@@ -22,3 +22,6 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+
+Top3PL2023(firstArray, secondArray);
+PrintArray(secondArray);
